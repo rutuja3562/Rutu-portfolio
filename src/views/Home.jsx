@@ -43,8 +43,6 @@ const Home = () => {
                     1000,
                     "A Problem Solver",
                     1000,
-                    // "Mobile Developer",
-                    // 1000,
                   ]}
                   loop={Infinity}
                 />
@@ -59,7 +57,7 @@ const Home = () => {
             ></p>
             <div
               className="flex md:justify-start "
-              // style={{ border: "2px solid red" }}
+              
             >
               {contactLinks.map((el) => (
                 <a
